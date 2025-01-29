@@ -1,4 +1,4 @@
-# -Digital-Clock-Using-in-Python
+# Digital-Clock-Using-in-Python
 
 **Digital Clock**
 
@@ -46,4 +46,14 @@ update_time()
 #Run the main loop
 root.mainloop()
 
+
+**📌 Connect With Me**
+
+If you’re interested in exploring how data visualization can transform your business operations, feel free to connect with me!
+
+📧 deepakkumarsingh7774@gmail.com
+
+🔗 https://www.linkedin.com/in/deepakkumar7774
+
+🌐 https://github.com/Deepakkumar7774/-Digital-Clock-Using-in-Python
 
