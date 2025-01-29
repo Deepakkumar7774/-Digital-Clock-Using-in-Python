@@ -18,16 +18,14 @@ Responsive Layout: The clock adjusts to fill the window size.
 **Full Code**
 
 Here is the complete code for the digital clock:
-
-python
 import tkinter as tk
 from time import strftime
 
-# Create the main window
+#Create the main window
 root = tk.Tk()
 root.title("Digital Clock")
 
-# Define the clock label with improved styling
+#Define the clock label with improved styling
 clock_label = tk.Label(root, 
                        font=("Helvetica", 60), 
                        bg="black", 
@@ -36,15 +34,16 @@ clock_label = tk.Label(root,
                        relief="sunken")
 clock_label.pack(anchor="center", fill="both", expand=True)
 
-# Function to update the time
+#Function to update the time
 def update_time():
     current_time = strftime("%H:%M:%S %p")  # Added AM/PM format
     clock_label.config(text=current_time)
     clock_label.after(1000, update_time)
 
-# Initialize the clock
+#Initialize the clock
 update_time()
 
-# Run the main loop
+#Run the main loop
 root.mainloop()
+
 
